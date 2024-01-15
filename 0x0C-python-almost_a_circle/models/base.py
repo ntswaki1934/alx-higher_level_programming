@@ -5,7 +5,11 @@
 class Base:
     """Represents the base model"""
     __nb_objects = 0.
+<<<<<<< HEAD
     def __init__(self, id=None):
+=======
+    def __init__(self.id = None):
+>>>>>>> e803718a9b0e0df7c1e8da8d537970b14b2ca70b
         if id is not None:
             self.id = id
         else:
